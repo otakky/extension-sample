@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Sample",
+    "version": "1.0",
+    "description": "sample for JS Seminer",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*.google.co.jp/*",
+                "https://*.google.co.jp/*"
+            ],
+            "js": [
+                "js/jquery.min.js",
+                "js/sample.js"
+            ]
+        }
+    ]
+}
